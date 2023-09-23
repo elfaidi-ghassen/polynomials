@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/normalize.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <title>Polynomials</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        padding: 10px;
+        font-family: 'Playfair Display', serif;
+    }
+    table {
+        border-collapse: collapse;
+        margin-top: 30px;
+    }
+    td, th {
+        padding: 5px;
+    }
+    table tr:nth-child(even) {
+        background-color: aliceblue;
+    }
+    .gray {
+        color: rgb(197, 197, 197);
+        background-color: rgb(255, 255, 255) !important;
+    }
+    
+</style>
+<body>
+    <input type="text">
+    <p class="result"></p>
+    <button id="btn">calc</button>
+    <table class="tab" border="1">
+        <tr>
+            <th>Coefficient</td>
+            <th>Degree</td>
+        </tr>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
